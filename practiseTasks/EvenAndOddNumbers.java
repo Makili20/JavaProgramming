@@ -1,0 +1,25 @@
+package practiseTasks;
+
+import java.util.Arrays;
+
+public class EvenAndOddNumbers {
+    public static void main(String[] args) {
+
+        int[] numbers={2,3,7,5,6,4,8,12};
+        int countOdd=0;
+        int countEven=0;
+        for (int each : numbers) {
+            if(each%2==0){
+                countEven++;
+            }else{
+               countOdd++;
+            }
+    }
+        System.out.println(Arrays.toString(numbers)+"has "+countEven+" even numbers and "+
+                countOdd+" odd numbers.");
+}}
+/*2. Write a program that can count the even and odd number from an
+array of integers
+Note: MUST use for each loop
+
+ */
