@@ -11,6 +11,15 @@ public class ShapeObjects {
 
         Rectangle rectangle=new Rectangle(5,10);
         System.out.println(rectangle);
+            rectangle.setLength(10);
+        System.out.println(rectangle.getLength());
+        System.out.println(rectangle.getName());
 
+
+
+        Circle circle=new Circle(3);
+        System.out.println(circle);
+        circle.setRadius(5);
+        System.out.println(circle);
     }
 }

@@ -3,7 +3,7 @@ package day39_Recap.shapeClass;
 public class Circle extends Shape{
 
     private double radius;
-    public static double pi;
+    public static double pi= 3.14;
 
     public double getRadius() {
         return radius;
