@@ -14,6 +14,7 @@ public class Developer extends Employee{
     public void work() {
         System.out.println(getJobTitle()+" "+getName()+" is developing the application");
     }
+
 }
 /*
 4. Create a sub class of Employee named Developer
