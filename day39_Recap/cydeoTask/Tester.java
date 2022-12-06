@@ -12,7 +12,7 @@ public class Tester extends Employee{
     }
 
     public void work() {
-        super.work();
+        System.out.println(getJobTitle()+" "+getName()+" is testing the application");
     }
 }
 /*
