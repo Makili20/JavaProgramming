@@ -11,9 +11,9 @@ public class Tester extends Employee{
         System.out.println(getJobTitle()+" "+getName()+" create a ticket");
     }
 
-
-
-
+    public void work() {
+        super.work();
+    }
 }
 /*
  Create a sub class of Employee named Tester
