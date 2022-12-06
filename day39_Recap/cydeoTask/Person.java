@@ -11,6 +11,10 @@ public class Person {
     }
 
     public void setName(String name) {
+        if(name.isEmpty()|| name.isBlank()){
+            System.err.println("Invalid name");
+            System.exit(1);
+        }
         this.name = name;
     }
 
