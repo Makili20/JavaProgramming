@@ -4,7 +4,7 @@ public class DisadventageOfThrowsKeyword {
     public static void main(String[] args) throws InterruptedException {
 
         System.out.println("Hello");
-        sleep(2.5);//throws
+      //  sleep(2.5);//throws
         System.out.println("Hello World");
 
         System.out.println("-----------------");
