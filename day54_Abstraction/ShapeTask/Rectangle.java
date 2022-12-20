@@ -1,9 +1,10 @@
 package day54_Abstraction.ShapeTask;
 
-public class Rectangle extends Shape{
+public final class Rectangle extends Shape{
 
     public double width;
     public double length;
+
 
     public Rectangle(double width, double length) {
         this.width = width;
