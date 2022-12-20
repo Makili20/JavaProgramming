@@ -14,6 +14,17 @@ public class Rectangle extends Shape{
     }
 
     @Override
+    public String toString() {
+        return "Rectangle{" +
+                "width=" + width +
+                ", length=" + length +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                ", volume=" + volume +
+                '}';
+    }
+
+    @Override
     public double calculateArea() {
         return width*length;
     }
