@@ -19,11 +19,9 @@ public class Circle extends Shape{
     public double calculateArea(){
       return Math.pow(radius,2)*Math.PI;
     }
-
     public double calculatePerimeter(){
         return radius*2*Math.PI;
     }
-
     @Override
     public double calculateVolume() {
         return 0;
@@ -36,10 +34,15 @@ public class Circle extends Shape{
     }
 
 
-
-
-
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                ", volume=" + volume +
+                '}';
+    }
 }
 /*
 
