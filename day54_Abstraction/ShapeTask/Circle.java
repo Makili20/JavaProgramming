@@ -11,6 +11,9 @@ public final class Circle extends Shape{
      */
 
     public Circle(double radius){
+        if(radius<=0){
+            throw new RuntimeException("Radius of the circle can not be negative or zero");
+        }
         this.radius=radius;
         area=calculateArea();
         perimeter=calculatePerimeter();

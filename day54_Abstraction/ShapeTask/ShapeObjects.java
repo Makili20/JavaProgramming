@@ -24,6 +24,19 @@ public class ShapeObjects {
 
         Cylinder cylinder1=new Cylinder(5,10);
         System.out.println(cylinder1);
+
+
+        System.out.println("=======================");
+
+       // Circle circle3=new Circle(-10);
+        //System.out.println(circle3);
+
+
+       // Rectangle rectangle2=new Rectangle(-2,0);
+        //System.out.println(rectangle2);
+
+       // Cylinder cylinder2=new Cylinder(0,0);
+       //System.out.println(cylinder2);
     }
 }
 /*
