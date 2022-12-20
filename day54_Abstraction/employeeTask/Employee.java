@@ -18,7 +18,7 @@ public class Employee {
     }
 public String toString(){
         return "Name: "+name+", Gender: "+gender+", DOfB: "+DOfB+", Job Title: "+
-                jobTitle+", Salaery $"+salary;
+                jobTitle+", Salary $"+salary;
 }
 
 
