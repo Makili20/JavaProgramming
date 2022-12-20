@@ -11,7 +11,8 @@ public class PersonObjects {
 
 
         p1.setName("Daniel");
-        p1.setAge(-2000);
+
+        p1.setAge(24);
 
 
         System.out.println(p1.getName()+": "+ p1.getAge());
