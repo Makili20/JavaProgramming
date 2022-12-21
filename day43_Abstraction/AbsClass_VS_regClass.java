@@ -1,4 +1,4 @@
-package day54_Abstraction;
+package day43_Abstraction;
 class A{//can create object from it
     //can be final
     int a=10;
