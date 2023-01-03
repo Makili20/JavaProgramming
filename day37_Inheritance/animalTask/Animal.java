@@ -46,6 +46,5 @@ public class Animal {
     }
 
 
-    public boolean getName() {
-    }
+
 }
